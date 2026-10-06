@@ -12,9 +12,9 @@ import {
    CUSTOMER AUTH
 ========================= */
 
-import Login from "../Components/Login";
-import Signup from "../Components/Signup";
-import RegisterSalon from "../Components/RegisterSalon";
+import Login from "../Components/Customer/Login";
+import Signup from "../Components/Customer/Signup";
+import RegisterSalon from "../pages/Customer/Partner/RegisterSalon";
 
 /* =========================
    CUSTOMER LAYOUT
@@ -26,11 +26,11 @@ import CustomerLayout from "../Components/Customer/CustomerLayout";
    CUSTOMER PAGES
 ========================= */
 
-import CustomerDashboard from "../pages/Customer/CustomerDashboard";
-import SearchSalons from "../pages/Customer/SearchSalons";
-import SalonDetails from "../pages/Customer/SalonDetails";
-import BookingPage from "../pages/Customer/BookingPage";
-import CustomerProfile from "../pages/Customer/CustomerProfile";
+import CustomerDashboard from "../Components/Customer/CustomerDashboard";
+import SearchSalons from "../Components/Customer/SearchSalons";
+import SalonDetails from "../Components/Customer/SalonDetails";
+import BookingPage from "../Components/Customer/BookingPage";
+import CustomerProfile from "../Components/Customer/CustomerProfile";
 
 /* =========================
    PARTNER PAGES
